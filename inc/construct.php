@@ -28,6 +28,8 @@ if (!class_exists('DASH_SOCIAL_SHARE_CONSTRUCT')) {
         public function init()
         {
             
+            
+            
             $detect = new Mobile_Detect;
             
             if ( !$detect->isMobile() ) {
@@ -58,7 +60,7 @@ if (!class_exists('DASH_SOCIAL_SHARE_CONSTRUCT')) {
             );
 
         }
-
+        
         public function  append_to_footer() { 
             ?>
             <script>
