@@ -1,0 +1,33 @@
+.ui-share-options{
+	position: fixed;
+	top: 25%;
+	left: 0;
+	z-index: 1982;
+	.ui-icon {
+		display: block;
+		max-width: 39px;
+		//height:50px;
+		background-color: #ffffff;
+		font-size: 18px;
+		padding: 9px;
+		line-height: 1;
+		background-color: #333333;
+		color: #E0E0E0;
+		text-align: center;
+		&:hover {
+			color: white;
+		}
+		&[title='Facebook'] {
+			background-color: #3b5998;
+		}
+		&[title='Twitter'] {
+			background-color: #55acee;
+		}
+		&[title='Google+'] {
+			background-color: #dd4b39;
+		} 
+		&[title='Linkedin'] {
+			background-color: #007bb5;
+		}
+	}
+}
